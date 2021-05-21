@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Inicio </title>
+    <link type="text/css" rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body>
+<hl> C Tangana </hl>
+<p>Esta es nuestra pagina web. Haz clic en los siguientes enlaces para visitar las siguientes secciones:</p>
+<nav>
+<ul>
+<li class="seleccionado">Inicio</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="canciones.html">Canciones</a></li>
+<li><a href="conciertos.html">Conciertos</a></li>
+<li><a href="organizarunconcierto.html">Organizar un concierto</a></li>
+</nav>
+</ul>
+<p>Anton Alvarez Alfaro (Madrid, 16 de julio de 1990), mas conocido por su nombre artistico C. Tangana, es un rapero, cantante y compositor español de diversos generos como el trap, latin pop, nuevo flamenco y regueton.
+
+Comenzo su carrera musical en 2006 bajo el pseudonimo de Crema, siendo integrante del grupo Agorazein junto con Algeron Diaz, Sticky M.A. (antes conocido como Manto), Jerv. Agz, Fabianni e I-Ace. El madrileño se corono en 2017 dentro del panorama mundial con su hit «Mala mujer», tema producido por Alizzz y Algeron Diaz (doble Disco de platino), al que le seguirian exitos como «Llorando en la limo» (Disco de platino)​ y «Bien duro» (disco de oro). Es coautor de la cancion «Malamente» interpretada por su expareja Rosalia, trabajo que recibio en el año 2018 dos premios Grammy Latinos.</p>
+<p>
+	<img id="mostrar-imagen" onclick="cambiarImagen()" src="imagenes/imagen1.png" width="180" height="180"/>
+	</p>
+	<p>¡Haz clic para cambiar imagen!</p>
+	<script>
+	function cambiarImagen() {
+		var imagenMostrada = document.getElementById('mostrar-imagen');
+		if (imagenMostrada.src.match("imagenes/imagen1.png")) {
+			imagenMostrada.src = "imagenes/imagen2.png";
+			}
+			else {
+				imagenMostrada.src = "imagenes/imagen1.png";
+				}
+			}
+		</script>
+</body>
+</html>
